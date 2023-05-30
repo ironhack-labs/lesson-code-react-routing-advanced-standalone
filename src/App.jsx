@@ -30,7 +30,7 @@ function App() {
 
         <Route 
           path="/projects/:projectId" 
-          element={ <ProjectDetailsPage /> } 
+          element={ <ProjectDetailsPage projects={projectsData} /> } 
         />
 
         <Route 
