@@ -1,6 +1,4 @@
-import projectsData from "./../projects-data.json";
 import { useParams, Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 function ProjectDetailsPage(props) {
   const { projectId } = useParams();
